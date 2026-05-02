@@ -5,7 +5,12 @@ function ProjectCard({ project }) {
     <div className="project-card">
       <div className="project-image">
         {project.image ? (
-          <img src={project.image} alt={project.title} loading="lazy" />
+          <img 
+  src={project.image || "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&q=80"} 
+  alt={project.title} 
+  onError={(e) => { e.target.src = "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&q=80" }}
+  loading="lazy" 
+/>
         ) : (
           <div className="project-image-placeholder" />
         )}

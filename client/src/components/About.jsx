@@ -37,15 +37,17 @@ export default function About() {
           </div>
         </div>
 
-        <div className="about-right">
-          <div className="about-image-frame">
-            <div className="about-image-placeholder">
-              <span>YOUR PHOTO</span>
-              <p>Replace this div with an &lt;img&gt; tag</p>
-            </div>
-            <div className="frame-accent" />
-          </div>
-        </div>
+       <div className="about-right">
+  <div className="about-image-frame">
+    {/* When you have a real photo, put it in client/public and change the src below to your filename */}
+    <img 
+      src="https://via.placeholder.com/500x600?text=Devansh+Photo" 
+      alt="Devansh" 
+      className="about-profile-img"
+    />
+    <div className="frame-accent" />
+  </div>
+</div>
       </div>
     </section>
   );

@@ -16,10 +16,8 @@ export default function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <a href="#hero" className="nav-logo">
-        <span className="logo-bracket">&lt;</span>
-        Devansh
-        <span className="logo-bracket">/&gt;</span>
-      </a>
+  Devansh
+</a>
 
       <ul className={`nav-links ${open ? "open" : ""}`}>
         {links.map((link) => (
