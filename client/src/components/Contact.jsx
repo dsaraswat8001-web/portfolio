@@ -58,14 +58,12 @@ export default function Contact({ apiUrl }) {
               </div>
               <div className="contact-info-item">
                 <span className="info-label">GitHub</span>
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="info-value">
-                  github.com/yourusername
-               <div className="contact-info-item">
-  <span className="info-label">GitHub</span>
-  <a href="https://github.com/dsaraswat8001-web" target="_blank" rel="noopener noreferrer" className="info-value">
-    github.com/dsaraswat8001-web
-  </a>
-</div>
+                <a href="https://github.com/dsaraswat8001-web" target="_blank" rel="noopener noreferrer" className="info-value">
+                  github.com/dsaraswat8001-web
+                </a>
+              </div>
+            </div>
+          </div>
 
           <div className="contact-right">
             <form className="contact-form" onSubmit={handleSubmit}>
