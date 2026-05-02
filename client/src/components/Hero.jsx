@@ -9,10 +9,8 @@ export default function Hero() {
           Hello, I&apos;m
         </p>
         <h1 className="hero-name animate-fadeUp" style={{ animationDelay: "0.25s" }}>
-          Your<br />
-          <span className="hero-name-italic">Name</span>
+          Devansh
         </h1>
-        <div className="hero-divider animate-fadeUp" style={{ animationDelay: "0.4s" }} />
         <p className="hero-role animate-fadeUp" style={{ animationDelay: "0.5s" }}>
           Full‑Stack Developer
         </p>
