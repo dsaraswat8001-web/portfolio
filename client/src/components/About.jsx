@@ -39,11 +39,11 @@ export default function About() {
 
        <div className="about-right">
   <div className="about-image-frame">
-    {/* When you have a real photo, put it in client/public and change the src below to your filename */}
     <img 
-      src="https://via.placeholder.com/500x600?text=Devansh+Photo" 
-      alt="Devansh" 
+      src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&q=80" 
+      alt="Abstract Code" 
       className="about-profile-img"
+      style={{ filter: 'grayscale(100%) sepia(20%) contrast(1.2)' }} 
     />
     <div className="frame-accent" />
   </div>
