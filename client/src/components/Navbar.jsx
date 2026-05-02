@@ -17,7 +17,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <a href="#hero" className="nav-logo">
         <span className="logo-bracket">&lt;</span>
-        YourName
+        Devansh
         <span className="logo-bracket">/&gt;</span>
       </a>
 

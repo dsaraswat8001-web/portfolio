@@ -50,20 +50,22 @@ export default function Contact({ apiUrl }) {
             <div className="contact-info">
               <div className="contact-info-item">
                 <span className="info-label">Email</span>
-                <a href="mailto:your@email.com" className="info-value">your@email.com</a>
+                <a href="mailto:dsaraswat8001@gmail.com" className="info-value">dsaraswat8001@gmail.com</a>
               </div>
               <div className="contact-info-item">
                 <span className="info-label">Location</span>
-                <span className="info-value">Your City, Country</span>
+                <span className="info-value">Noida, India</span>
               </div>
               <div className="contact-info-item">
                 <span className="info-label">GitHub</span>
                 <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="info-value">
                   github.com/yourusername
-                </a>
-              </div>
-            </div>
-          </div>
+               <div className="contact-info-item">
+  <span className="info-label">GitHub</span>
+  <a href="https://github.com/dsaraswat8001-web" target="_blank" rel="noopener noreferrer" className="info-value">
+    github.com/dsaraswat8001-web
+  </a>
+</div>
 
           <div className="contact-right">
             <form className="contact-form" onSubmit={handleSubmit}>
